@@ -2,7 +2,7 @@ package $organization$
 
 import akka.actor._
 import akka.pattern.ask
-import akka.util.duration._
+import scala.concurrent.duration._
 import akka.util.Timeout
 
 case object Tick
